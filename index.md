@@ -150,12 +150,9 @@ special instructions.
   <li>Accessible restrooms are available.</li>
 </ul>
 <p>
-  Accommodations for students with disabilities are determined and approved by Disability Access Services (DAS). If you, as a student, believe you are eligible for accommodations but have not obtained approval please contact DAS immediately at 541-737-4098 or at <a href="http://ds.oregonstate.edu">http://ds.oregonstate.edu</a>. DAS notifies students and faculty members of approved academic accommodations and coordinates implementation of those accommodations. While not required, students and faculty members are encouraged to discuss details of the implementation of individual accommodations.
-</p>
-<p>
   Materials will be provided in advance of the workshop. If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please get in touch (using contact details below) and we will
-  attempt to provide them.
+  you (e.g. sign-language interpreters, lactation facilities) please get in touch and we will
+  attempt to provide them. Accommodation requests related to a disability should be made by September 20th, 2019 using the   contact details below. 
 </p>
 
 {% comment %}
