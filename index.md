@@ -34,14 +34,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% comment %}
 For a workshop please delete the following block
 {% endcomment %}
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to customize your
-own website. If you are running a self-organized workshop or have not put in a
-workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
-about your workshop and our administrator may contact you if we need any extra
-information.
-</div>
 
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
@@ -50,25 +42,6 @@ You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code
 see the changes take effect locally.
 </div>
 {% endif %}
-
-{% comment %}
-EVENTBRITE
-
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-{% endif %}
-
 
 <h2 id="general">General Information</h2>
 
@@ -147,8 +120,9 @@ CODE OF CONDUCT
 {% endcomment %}
 <p id="code-of-conduct">
 <strong>Code of Conduct:</strong>  Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+  
+  Students at OSU also need to abide by the <a href="https://studentlife.oregonstate.edu/sites/studentlife.oregonstate.edu/files/code-of-student-conduct-102218.pdf">Code of Student Conduct</a>. More information in the <a href="https://studentlife.oregonstate.edu/studentconduct">Student Conduct and Community Standards Website</a>. 
 </p>
-
 
 {% comment %}
 ACCESSIBILITY
@@ -166,11 +140,11 @@ special instructions.
   <li>Accessible restrooms are available.</li>
 </ul>
 <p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
+  Accommodations for students with disabilities are determined and approved by Disability Access Services (DAS). If you, as a student, believe you are eligible for accommodations but have not obtained approval please contact DAS immediately at 541-737-4098 or at <a href="http://ds.oregonstate.edu">http://ds.oregonstate.edu</a>. DAS notifies students and faculty members of approved academic accommodations and coordinates implementation of those accommodations. While not required, students and faculty members are encouraged to discuss details of the implementation of individual accommodations.
+</p>
+<p>
+  Materials will be provided in advance of the workshop. If we can help making learning easier for
+  you (e.g. sign-language interpreters, lactation facilities) please get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
 
@@ -207,8 +181,9 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "swc" %} 
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey for Software Carpentry</a></p>
+<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey for Software Carpentry</a></p>
+<p><a href="https://osuvalleylibrary.az1.qualtrics.com/jfe/form/SV_72F5vNAMOC96O3y">Post-workshop Survey for OSU</a></p>
 {% elsif site.carpentry == "dc" %}
 <p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
