@@ -183,6 +183,16 @@ Display the contact email address set in the configuration file.
 <hr/>
 
 {% comment %} 
+REGISTRATION
+{% endcomment %}
+<h2 id="registration">Registration</h2>
+<p>This workshop is free, but we require registration. The workshop will be capped at 30 participants. <a href="http://osuvalleylibrary.az1.qualtrics.com/jfe/form/SV_2hj9W6GDIfv6FfL">Register here</a></p>
+<p> If you register and later find out that you cannot attend please let us know so that we can give your spot to somebody else. If you try to register after the 30 slots have been taken you will have the option of adding your name in the waitlist. We will inform the people on the waitlist whether they can attend or not a few days before the workshop.  
+
+<hr/>
+
+
+{% comment %} 
 SURVEYS - DO NOT EDIT SURVEY LINKS 
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
