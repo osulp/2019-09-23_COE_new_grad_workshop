@@ -125,6 +125,16 @@ CODE OF CONDUCT
 </p>
 
 {% comment %}
+WELLBEING STATEMENT
+
+Added health and wellbeing statement that we are supposed to include in syllabi. 
+{% endcomment %}
+<p id="awellbeing">
+  <strong>Health and Wellbeing statement:</strong> University students encounter setbacks from time to time. If you encounter difficulties and need assistance, it’s important to reach out. Consider discussing the situation with an instructor or academic advisor. Learn about resources that assist with wellness and academic success at <a href="https://counseling.oregonstate.edu/reach-out-success">oregonstate.edu/ReachOut</a>. If you are in immediate crisis, please contact the Crisis Text Line by texting OREGON to 741-741 or call the National Suicide Prevention Lifeline at 1-800-273-TALK (8255).
+</p>
+
+
+{% comment %}
 ACCESSIBILITY
 
 Modify the block below if there are any barriers to accessibility or
